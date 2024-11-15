@@ -25,8 +25,8 @@ Mobile Preview: ![mobile preview](https://github.com/user-attachments/assets/45c
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [[Add solution URL here](https://your-solution-url.com)](https://www.frontendmentor.io/solutions/single-price-grid-component-master-dgYK43fgHq)
+- Live Site URL: [[Add live site URL here](https://your-live-site-url.com)](https://manjirigole.github.io/single-price-grid-component-master/)
 
 ## My process
 
