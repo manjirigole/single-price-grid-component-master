@@ -20,8 +20,8 @@ Users should be able to:
 - See a hover state on desktop for the Sign Up call-to-action
 
 ### Screenshot
-Desktop Preview: ![desktop preview](https://github.com/user-attachments/assets/1145729d-368b-47ea-b1cf-308b77bce875) 
-Mobile Preview: ![mobile preview](https://github.com/user-attachments/assets/45c3ee70-8e8f-4a0f-8009-d2d3d87dafbc)
+Desktop Preview: !(https://github.com/user-attachments/assets/1145729d-368b-47ea-b1cf-308b77bce875) 
+Mobile Preview: !(https://github.com/user-attachments/assets/45c3ee70-8e8f-4a0f-8009-d2d3d87dafbc)
 
 ### Links
 
@@ -41,4 +41,5 @@ Mobile Preview: ![mobile preview](https://github.com/user-attachments/assets/45c
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [[@yourusername](https://www.frontendmentor.io/profile/yourusername)
+](https://www.frontendmentor.io/profile/manjirigole)
