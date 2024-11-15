@@ -1,0 +1,131 @@
+body{
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.grid-item1 {grid-area: header; }
+.grid-item2 {grid-area: left;}
+.grid-item3 {grid-area: right;}
+
+.center-card{
+    display: grid;
+    background-color: white;
+    grid-template-areas: 
+    "header header"
+    "left right";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    border-radius: 10px;
+}
+.grid-item1{
+    padding: 25px;
+    grid-area: header;
+}
+.grid-item1 h2{
+    color: hsl(179, 62%, 43%);
+}
+.grid-item1 h3{
+    color: hsl(71, 73%, 54%);
+}
+.grid-item1 p{
+    color: hsl(218, 22%, 67%);
+    word-spacing: 1px;
+}
+.grid-item2{
+    background-color: hsl(179, 62%, 43%);
+    padding: 35px;
+    border-bottom-left-radius: 10px;
+}
+.grid-item2 h3{
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 2px;
+}
+.grid-item2 h1{
+    color: hsl(204, 43%, 93%);
+}
+.price-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.grid-item2 span{
+    color: hsl(204, 43%, 93%);
+    display: inline-flex;
+    opacity: 80%;
+}
+.grid-item2 p{
+    color: hsl(204, 43%, 93%);
+    margin-top: 2px;
+}
+.grid-item2 button{
+    background-color: hsl(71, 73%, 54%);
+    height: 45px;
+    width: 240px;
+    border-style: none;
+    border-radius: 5px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.grid-item2 button:hover{
+    cursor: pointer;
+}
+
+.grid-item3{
+    background-color: hsl(179, 62%, 43%);
+    padding: 35px;
+    opacity: 90%;
+    border-bottom-right-radius: 10px;
+}
+.grid-item3 h3{
+    color: hsl(204, 43%, 93%);
+}
+.grid-item3 p{
+    color: hsl(204, 43%, 93%);
+    opacity: 90%;
+}
+
+@media (max-width: 600px) {
+    .container{
+        padding: 25px;
+        margin: 100px;
+        justify-content: center;
+    }
+    .center-card{
+        grid-template-areas: 
+        "header"
+        "left"
+        "right";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    .grid-item1 {
+        width: 300px;
+    }
+    .grid-item2{
+        background-color: hsl(179, 62%, 43%);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 0;
+    }
+    .grid-item2 h3 .grid-item2 p{
+        text-align: left;
+    }
+    .grid-item2 button{
+        width: 100%;
+        max-width: 350px;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .grid-item3{
+        border-bottom-left-radius: 10px;
+    }
+}
