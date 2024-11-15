@@ -25,8 +25,8 @@ Mobile Preview: !(https://github.com/user-attachments/assets/45c3ee70-8e8f-4a0f-
 
 ### Links
 
-- Solution URL: [[Add solution URL here](https://your-solution-url.com)](https://www.frontendmentor.io/solutions/single-price-grid-component-master-dgYK43fgHq)
-- Live Site URL: [[Add live site URL here](https://your-live-site-url.com)](https://manjirigole.github.io/single-price-grid-component-master/)
+- Solution URL: https://your-solution-url.com)](https://www.frontendmentor.io/solutions/single-price-grid-component-master-dgYK43fgHq
+- Live Site URL: https://your-live-site-url.com)](https://manjirigole.github.io/single-price-grid-component-master/
 
 ## My process
 
@@ -41,5 +41,4 @@ Mobile Preview: !(https://github.com/user-attachments/assets/45c3ee70-8e8f-4a0f-
 
 ## Author
 
-- Frontend Mentor - [[@yourusername](https://www.frontendmentor.io/profile/yourusername)
-](https://www.frontendmentor.io/profile/manjirigole)
+- Frontend Mentor - https://www.frontendmentor.io/profile/manjirigole
